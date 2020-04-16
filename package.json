@@ -1,0 +1,19 @@
+{
+  "name": "fastify-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bijay Rauiniyar",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^2.13.0",
+    "fastify-autoload": "^1.2.2",
+    "fastify-objectionjs": "^0.2.0",
+    "mysql": "^2.18.1",
+    "objection-encrypt": "^0.1.2"
+  }
+}
